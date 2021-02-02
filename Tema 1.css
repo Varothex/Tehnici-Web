@@ -1,0 +1,157 @@
+/*https://mihaivladvartic.wixsite.com/website-1*/
+
+.cutebot
+{
+   float: left;
+   position:-webkit-sticky;
+   position: sticky;
+   top: 0;
+   height: 5%;
+   width: 5%;
+}
+
+
+tr:nth-of-type(odd){color:darkblue;}
+tr:nth-of-type(even){color:blue;}
+
+img:hover
+{
+	opacity:0.5;
+}
+
+.dropbtn {
+  background-color: lightblue;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: lightblue}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: lightblue;
+}
+
+h1
+{
+	padding: 30px;
+	font-size: 300%;
+}
+
+.art
+{
+	background-color: lightblue;
+	color: black;
+	margin: 200px;
+	text-align: center;
+	font-family: georgia;
+	font-size: 150%;
+}
+
+#m
+{
+	background-image: url('wall.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 50px;
+	font-size: 100%;
+	color: white;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body
+{
+	background-image: url('wall.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 50px;
+	font-size: 100%;
+	color: white;
+	text-align: center;
+}
+
+.row
+{
+  display: flex;
+}
+
+.column
+{
+  flex: 50%;
+}
+
+.headings
+{
+	text-align:center;
+	font-size: 200%;
+	font-family: georgia;
+}
+
+.headings2
+{
+	text-align:center;
+	font-size: 150%;
+	font-family: georgia;
+}
+
+.menu
+{
+	text-align:left;
+	float: left;
+}
+
+.back_to_menu
+{
+	text-align:center;
+	font-size: 100%;
+	font-family: georgia;
+}
